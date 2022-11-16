@@ -6,10 +6,3 @@ input_file.close()
 
 print(isi_file)
 
-
-
-with open('kota.txt', 'r') as file:
-    print('Jakarta')
-    print('Bandung')
-    print('Depok')
-
