@@ -1,0 +1,13 @@
+# 'r' (read) buka file untuk baca
+# 'w' (write) buka file untuk ditulis
+# 'a' ('append' sambung) buka file untuk ditulis-ditambahkan pada akhir file
+
+#method
+read() # membaca seluruh file
+readline() # membaca isi perbaris
+readlines() # membaca isi file dan menyimpannya dalam sebuah list
+
+write() # menerima argumen sebuah string dan menulis string tersebut ke file
+writelines() # yang menerima argumen sebuah list dan menulis elemen-elemen list ke file
+
+close()
