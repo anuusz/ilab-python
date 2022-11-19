@@ -1,6 +1,3 @@
-with open('kota.txt', 'r') as file:
-
- print('Jakarta')
- print('Bogor')
- print('Depok')
- print('Tangerang')
+with open('kota.txt', 'r') as infile:
+    isi_file = infile.read()
+    print(isi_file)
